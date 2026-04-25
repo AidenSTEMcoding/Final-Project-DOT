@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerDialogue : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class PlayerDialogue : MonoBehaviour
     private GameObject _talkPanel;
     private TextMeshProUGUI _talkText;
     private int _talkIndex = 0;
+    public bool flagLoad = false;
+    public string Bedroom = "Bedroom";
 
     private void Start()
     {
@@ -29,6 +32,10 @@ public class PlayerDialogue : MonoBehaviour
             {
                 isSpeaking = false;
                 _talkPanel.SetActive(false);
+                if (flagLoad)
+                {
+                    SceneManager.LoadScene(Bedroom);
+                }
             }
             else
             {
