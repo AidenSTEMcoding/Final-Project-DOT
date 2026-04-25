@@ -7,6 +7,7 @@ public class TalkingNPC : MonoBehaviour
 {
     public List<string> dialogue = new List<string>();
     private GameObject _talkIcon;
+    public bool sendToNextLevel = false; 
 
     private void Start()
     {
@@ -21,6 +22,7 @@ public class TalkingNPC : MonoBehaviour
             _talkIcon.SetActive(true);
             collision.GetComponent<PlayerDialogue>().CopyDialogue(dialogue);
             collision.GetComponent<PlayerDialogue>().SetCanSpeak(true);
+            collision.GetComponent<PlayerDialogue>().flagLoad = sendToNextLevel;
         }
     }
 
