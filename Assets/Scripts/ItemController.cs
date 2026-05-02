@@ -11,7 +11,14 @@ public class ItemController : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            collision.gameObject.tag = "Test";
+            // Assign tag based on this item's name
+            if (gameObject.name == "FI")
+                collision.gameObject.tag = "FM";
+            else if (gameObject.name == "GI")
+                collision.gameObject.tag = "GM";
+            else if (gameObject.name == "MI")
+                collision.gameObject.tag = "MM";
+
             Destroy(gameObject);
         }
     }

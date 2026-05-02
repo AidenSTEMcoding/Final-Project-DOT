@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -3921823312333215077}
   - component: {fileID: 5873820089178952762}
   m_Layer: 0
-  m_Name: GrahamsItem
+  m_Name: GI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
