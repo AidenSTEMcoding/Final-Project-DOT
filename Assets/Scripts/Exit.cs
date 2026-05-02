@@ -23,7 +23,6 @@ public class Pickup : MonoBehaviour
     string name; 
 }
 
-
 /*
 public class DropOff : MonoBehaviour
 {
@@ -44,4 +43,5 @@ public class DropOff : MonoBehaviour
                     }
         }
     }
-}*/
+}
+*/
