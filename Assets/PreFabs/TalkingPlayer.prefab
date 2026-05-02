@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3571618544985786448}
   - component: {fileID: 2645563415537539907}
   - component: {fileID: 1682836126011602375}
+  - component: {fileID: 8100259159008728970}
   m_Layer: 0
   m_Name: TalkingPlayer
   m_TagString: Player
@@ -78,6 +79,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: []
+  flagLoad: 0
+  Bedroom: Bedroom
 --- !u!114 &3349472419494063357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,6 +187,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8100259159008728970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800556627693974082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2323bc30faa6de34f97fe0789bb5d05a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7729726220874094075
 GameObject:
   m_ObjectHideFlags: 0

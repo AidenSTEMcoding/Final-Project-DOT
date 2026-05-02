@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 738645620870791529}
   - component: {fileID: 7186569626415700185}
   - component: {fileID: -6229442824782701599}
+  - component: {fileID: 3898821124875132239}
   m_Layer: 0
   m_Name: Mrs.MandysItem
   m_TagString: Untagged
@@ -117,7 +118,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0025705975, y: -0.0025706366}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -128,5 +129,17 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
+  m_Size: {x: 0.114407286, y: 0.104124814}
   m_EdgeRadius: 0
+--- !u!114 &3898821124875132239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064101889486262409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7399edc8b32120a43ad8aa052cbcc577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
