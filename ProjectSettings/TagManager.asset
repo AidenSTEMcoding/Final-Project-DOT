@@ -7,6 +7,9 @@ TagManager:
   - TalkZone
   - Exit
   - Test
+  - GM
+  - FM
+  - MM
   layers:
   - Default
   - TransparentFX
