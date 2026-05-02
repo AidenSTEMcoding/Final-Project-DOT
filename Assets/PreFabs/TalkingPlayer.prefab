@@ -16,10 +16,10 @@ GameObject:
   - component: {fileID: 3571618544985786448}
   - component: {fileID: 2645563415537539907}
   - component: {fileID: 1682836126011602375}
-  - component: {fileID: 8100259159008728970}
+  - component: {fileID: -910561514536767409}
   m_Layer: 0
   m_Name: TalkingPlayer
-  m_TagString: Player
+  m_TagString: Test
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -187,7 +187,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8100259159008728970
+--- !u!114 &-910561514536767409
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
