@@ -1447,7 +1447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7159296443536290887, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
       propertyPath: m_Name
-      value: Mrs.Mandy
+      value: MrsMandy
       objectReference: {fileID: 0}
     - target: {fileID: 8520119836045698116, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
       propertyPath: dialogue.Array.data[0]
@@ -37954,7 +37954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8520119836045698116, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: Hi
+      value: GO find ppl ask what they want
       objectReference: {fileID: 0}
     - target: {fileID: 8520119836045698116, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
       propertyPath: dialogue.Array.data[1]

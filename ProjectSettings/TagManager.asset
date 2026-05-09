@@ -10,6 +10,7 @@ TagManager:
   - GM
   - FM
   - MM
+  - DoneWithGame
   layers:
   - Default
   - TransparentFX
