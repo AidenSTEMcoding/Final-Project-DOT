@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
 
         Debug.Log("Player Awake, tag: " + gameObject.tag);
     }
-
+   
     // Use this method to change the tag
     public void SetTag(string newTag)
     {

@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class PlayerAnimator : MonoBehaviour
 {
-    private Animator _animator;
+    public Animator _animator;
     private Rigidbody2D _rigidbody2D;
 
     // Start is called before the first frame update
     private void Start() {
-        _animator = GetComponent<Animator>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 

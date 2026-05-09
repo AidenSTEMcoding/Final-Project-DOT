@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 3;
     public bool isInArena = false;
 
+
     // Start is called before the first frame update
     private void Start() {
         _rigRigidbody2D = GetComponent<Rigidbody2D>();
