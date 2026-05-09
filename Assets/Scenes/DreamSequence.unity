@@ -130,6 +130,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1224224317435694482, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1674240783, guid: a1126d459baedeb4b9e49b3599cf8a64, type: 3}
     - target: {fileID: 2641175210428784259, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
       propertyPath: sentences.Array.size
       value: 2
@@ -143,12 +147,20 @@ PrefabInstance:
       value: Bye
       objectReference: {fileID: 0}
     - target: {fileID: 2741854173681740130, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4437499
+      objectReference: {fileID: 0}
+    - target: {fileID: 2741854173681740130, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.7914033
       objectReference: {fileID: 0}
     - target: {fileID: 2741854173681740130, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.086973906
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 2741854173681740130, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -209,6 +221,18 @@ PrefabInstance:
     - target: {fileID: 8520119836045698116, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
       propertyPath: dialogue.Array.data[3]
       value: fix the square
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.4375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.4375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851895800398322840, guid: 696cd09b848267a4180ccf533268b0fd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.4375
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1755,6 +1779,14 @@ PrefabInstance:
       value: TalkingPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 3076340021279171867, guid: 2ba8f0e13eebaa444b94f93d80407a4c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.2125
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076340021279171867, guid: 2ba8f0e13eebaa444b94f93d80407a4c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.330625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076340021279171867, guid: 2ba8f0e13eebaa444b94f93d80407a4c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -28.395958
       objectReference: {fileID: 0}
@@ -1794,6 +1826,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6705472084016291778, guid: 2ba8f0e13eebaa444b94f93d80407a4c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1221974457, guid: a1126d459baedeb4b9e49b3599cf8a64, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
