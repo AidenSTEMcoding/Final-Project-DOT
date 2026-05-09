@@ -8,7 +8,7 @@ public class Structs
 
     public struct AnimationParameters
     {
-        public const string isWalking = "IsWalking";
+        public const string isWalking = "isWalking";
     }
 
     public struct Input

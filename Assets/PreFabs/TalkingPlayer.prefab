@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 1682836126011602375}
   m_Layer: 0
   m_Name: TalkingPlayer
-  m_TagString: Player
+  m_TagString: Test
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,6 +78,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: []
+  flagLoad: 0
+  Bedroom: Bedroom
 --- !u!114 &3349472419494063357
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - TalkZone
+  - Exit
+  - Test
+  - GM
+  - FM
+  - MM
   layers:
   - Default
   - TransparentFX

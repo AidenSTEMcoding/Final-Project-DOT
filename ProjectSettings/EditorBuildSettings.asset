@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MontefioreSquare.unity
+    guid: 355b7c2abe1ca944e8aa42432c1004bc
+  - enabled: 1
+    path: Assets/Scenes/DreamSequence.unity
+    guid: 2a255f8343558db4d983515efda554d7
+  - enabled: 1
+    path: Assets/Scenes/Bedroom.unity
+    guid: 871bc5ce9ac7c864597f772617d31289
+  - enabled: 1
     path: Assets/Scenes/Arena_1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
