@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DreamSequence.unity
     guid: 2a255f8343558db4d983515efda554d7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Aiden Scene.unity
     guid: fea4925bed796034c9eee0bde2a7c4ab
   - enabled: 1
