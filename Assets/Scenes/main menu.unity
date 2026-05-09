@@ -698,7 +698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fe5351e1976c68438591864201a9d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startscene: DreamSequence
+  startscene: MontefioreSquare
 --- !u!4 &1614367315
 Transform:
   m_ObjectHideFlags: 0
